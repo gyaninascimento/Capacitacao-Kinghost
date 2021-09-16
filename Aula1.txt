@@ -1,0 +1,85 @@
+Configuração de Gerenciadores de Emails
+
+Conceito e-mail
+
+Serviço para troca de mensagens (envio e leitura) e documentos digitais (anexos) via Internet.
+(Primeiro envio em 1971) | (Hotmail - 1º e-mail gratuito) | (No Brasil: zipmail e bol)
+
+O que são gerenciadores de email?
+Gerenciadores de email são aplicações, que podem ser instaladas no seu computador, celular ou 
+acessadas via navegador, nas quais podemos configurar contas de email, realizar leitura de emails,
+armazenar emails, configurar assinatura e demais configurações.
+
+Exemplos de gerenciador
+Outlook (privado) Thunderbird (Gratuito)
+Aplicações de computador
+
+Aplicações de celular
+Outlook mobile Mail (Iphone) MyMail (multiplataforma) 
+
+Aplicações de acesso via navegador
+Exchange (OWA) Gmail
+Servidores de email
+
+Para configurarmos nossos emails em alguma aplicação, primeiro devemos
+ter conhecimento dos servidores e como eles funcionam.
+Os servidores principais são:
+● IMAP;
+● POP3;
+● SMTP.
+
+Servidor IMAP:
+O IMAP realiza o sincronismo de mensagens e pastas entre o servidor e a aplicação, sendo similar a um acesso direto a conta.
+Sendo assim, é possível visualizar o conteúdo de qualquer pasta da conta de email configurada, o que inclui também a pasta de 
+emails enviados. Quando você enviar uma mensagem pelo seu dispositivo configurado como IMAP, essa mensagem ficará salva no servidor.
+
+A configuração IMAP é feita pelas portas 143, quando não utilizada criptografia SSL ou 993 com SSL.
+
+Servidor POP3:
+O POP tem por principal função acessar a caixa de entrada da conta configurada e efetuar o download das mensagens para a aplicação, caso
+existam outras pastas de email que você tenha criado elas ficarão indisponíveis.
+Assim que as mensagens são baixadas para o seu dispositivo, as mesmas, por padrão, são excluídas do servidor de emails, o que pode gerar um futuro
+problema caso venha a formatar sua máquina, por exemplo, onde não existirá backup das mensagens.
+Há a possibilidade de configurar, via software, a opção de não remover mensagens do servidor, mas seu uso não é garantido.
+
+Caso queira ter a conta em vários dispositivos diferentes, definitivamente o POP não seria uma boa opção como protocolo de recebimento.
+Além disso, como o POP é limitado a visualizar somente a caixa de entrada, as mensagens enviadas ficam numa pasta local em seu dispositivo.
+
+A configuração POP3 é feita pelas portas 110, quando não utilizada criptografia SSL ou 995 com SSL.
+
+IMAP vs POP3
+Apesar de serem servidores de recebimento, o funcionamento é feito de maneira diferente, abaixo temos as principais diferenças:
+
+Servidor SMTP:
+O servidor responsável pelo envio de e-mails é chamado de servidor SMTP(Simple Mail Transfer Protocol). Ele funciona tal como o serviço dos
+Correios, no qual o carteiro coleta e envia as correspondências de forma padronizada e segura.
+
+Quando uma pessoa escreve um email e clica em enviar, todas as informações referentes a ele são enviadas para o servidor SMTP.
+Nesse momento, o servidor vai adequar o conteúdo recebido aos padrões de transferência de email, onde será transmitido e assim recebido pelos
+destinatários.
+A configuração SMTP é feita pelas portas 587, quando não utilizada criptografia SSL ou 465 com SSL.
+
+
+Como configurar
+Configuração de conta no Gmail
+Para este exemplo iremos utilizar o celular, caso ainda não tenham, peço que baixem a aplicação do Gmail para configuração de contas.
+
+Começaremos abrindo a aplicação e clicando no círculo superior, na foto de sua conta. Assim, clicaremos em “Adicionar outra conta”. Nesta outra aba,
+selecionaremos “Outro (IMAP)”
+
+Configuração de conta no Gmail
+A partir de agora, entraremos nas configurações de conta e servidores. Primeiro preenchemos com a conta que foi encaminhada previamente.
+Nos servidores podemos utilizar SSL ou configurar sem também. Neste caso, utilizaremos a configuração IMAP com a criptografia SSL.
+Preencheremos a senha e em servidor IMAP imap.kinghost.net, que são os servidores padrões da KingHost, deixaremos a porta 993 e em tipo de segurança
+“SSL/TLS” 
+
+No servidor de saída, preenchemos com SMTP com a criptografia SSL. A senha já estará preenchida e em servidor SMTP colocaremos smtp.kinghost.net, deixaremos
+a porta 465 e em tipo de segurança “SSL/TLS” 
+
+Se estiver tudo correto, será solicitado o nome que desejamos utilizar na conta, este aparecerá quando forem feitos envios. Após este passo, a conta estará configurada
+na aplicação. 
+
+Onde podemos conferir os
+endereços de servidores e
+portas?
+memnu - configurçoes - configurçoes de entrada e configurçoes de saída
