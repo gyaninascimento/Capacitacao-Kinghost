@@ -1,0 +1,60 @@
+
+O que é uma Hospedagem de Sites? 
+· Provedor de ambientes para usuários disponibilizarem seus sites/aplicações na Internet;
+· A Hospedagem gerencia as máquinas (Servidores);
+· A Hospedagem oferece um Painel de Controle, para gerenciamento da conta. 
+
+O que mais um Provedor de Hospedagem pode oferecer?
+· Serviço de E-mails;
+· Serviço de Banco de Dados;
+· Serviço de E-mail Marketing;
+· Serviço de Instalador automático;
+· +
+
+
+Tipos de Hospedagem de Sites
+Hospedagem Compartilhada
+·  O servidor é compartilhado com outros usuários/clientes;
+·  Desta forma, há pouca flexibilidade para modificações no servidor;
+· Baixo custo, recomendada para Empresas pequenas/médias.
+
+Hospedagem Cloud
+· O servidor é dedicado para o site/aplicação do usuário;
+· Há uma maior flexibilidade para alteração de diretivas no servidor;
+·  Recursos escaláveis;
+·  Custo alto, recomendada para empresas com alto fluxo de visitas.
+
+Hospedagem VPS
+· O servidor é dedicado para o usuário, podendo hospedar outros serviços dentro da VPS;
+·  Total autonomia e liberdade para configurar o VPS como quiser;
+·  Custo baixo, recomendada para empresas de Tecnologia.
+
+Alguns conceitos importantes
+
+Domínio
+Um domínio é o nome da sua marca na Internet;
+Ele pode ser nacional (i.e. maria.com.br) ou internacional (i.e. joao.com);
+O seu preço pode variar de acordo com a extensão (TLD).
+https://registro.br/
+https://www.enom.com/
+
+DNS
+Domain Name Service, é uma base de dados global responsável por traduzir os nomes de máquinas para endereços IP;
+Existem 2 tipos de DNS: Recursivo e Autoritativo.
+
+FTP
+File Transfer Protocol, é um protocolo responsável pela transferência de arquivos/ficheiros entre máquinas;
+Para essa comunicação ser bem sucedida, as seguintes credenciais são necessárias: Host, usuário e senha.
+
+Fluxo para hospedar um Site na Internet
+1. Contratar uma Hospedagem de Sites, como a KingHost;
+2. Registrar um Domínio;
+3. Inserir o domínio registrado na Hospedagem;
+4. Apontar o domínio para a Hospedagem (Servidor DNS);
+5. Acessar o serviço de FTP da Hospedagem;
+6. Fazer o Upload dos arquivos para o servidor da
+Hospedagem.
+
+
+
+
