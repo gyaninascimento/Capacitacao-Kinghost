@@ -1,0 +1,14 @@
+
+HTML
+HyperText Markup Language
+Linguagem de Marcação de Hipertexto
+
+CSS
+Cascading Style Sheet
+Folha de Estilo em Cascatas
+
+Tipos de CSS
+CSS inline: Cada tag tem seu estilo definido na abertura
+CSS interno: O estilo das tags é definido no cabeçalho
+CSS externo:O estilo das tags é definido em um arquivo separado
+
