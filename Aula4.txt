@@ -1,0 +1,15 @@
+trocarLampada
+[pegar uma escada
+posicionar a escada embaixo da Lampada
+subir na escada
+retirar a Lampada 
+descer da escada
+] 
+se a lampada estiver queimada
+[abra a embalagem da lampada nova
+retire da embalagem
+suba a escada
+coloque a lampada nova]
+senão [recoloque a lampada antiga no lugar]
+
+fim trocarLmapada
