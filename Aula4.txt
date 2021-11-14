@@ -1,3 +1,24 @@
+Lógica de programação são todas atividades que realizamos duarante o dia a dia,
+fazemos porque utlizamos a lógica, mesmo sem perceber. 
+
+A lógica de programação existe para nos fazer pensar racionalmente na melhor sequência
+de passos para resolver um problema. Sempre teremos um problema para solucionar, onde 
+será necessário analisar todas as possiblilidades.
+
+ALGORITMOS
+São conjuntos de passos finitos e organizados que, quando executados, resolvem um determinado 
+tipo mde problema.  
+
+Algoritmo NomeDoAlgoritmo
+[sequencia de passos]
+[condição 1]
+    [sequencia de passos se ebtrar na condição 1]
+[condição 2]    
+    [sequencia de passos se ebtrar na condição 2]
+Fim-se  
+
+Fim algoritmo
+
 trocarLampada
 [pegar uma escada
 posicionar a escada embaixo da Lampada
@@ -13,3 +34,72 @@ coloque a lampada nova]
 senão [recoloque a lampada antiga no lugar]
 
 fim trocarLmapada
+
+Linguagemn de programação é uma linguagem formal que através de uma série de instruções
+permite que um programador escreva um conjunto de passos consecutivos a fim de escrever 
+um algoritimo computacional. é a ligação entre o programador e a máquina. 
+
+Lógica de programação PHP
+
+Todo código escrito em PHP fica dentro das tags <?php ?>
+<?php echo" imnorimir algo na tela" ?>
+
+EXPRESSÕES ARITMÉTICAS
+1º () [] {}
+2º * / %
+3º + -
+
+vARIÁVEIS
+
+Uma váriavel é uma prção de memória que é utilizada para armazenar dados durante a execução
+de algum programa. Ou seja, posso armazenar váriostipos de valores dentro de variáveis para
+usar durante a execução do meu algoritmo. 
+Em PHP, a váriavel é escrita da seguinte forma: $<nomeVariavel>; ou $<nomevariavel>=<valor>;
+
+CONSTANTES
+Um constante é um identificador(nome) para um valor único. 
+Esse valor não pode mudar durante a execução do script.
+Declaração da constante: define('Nome da constante', 'valor da constante');
+
+TIPOS DE DADOS PHP
+Booleano true/false
+Inteiros z={..., -2, -1, 0, 1, 2, ...}
+Ponto flutuante (float) Números reais 
+String Conjunto de caracteres
+Array Mapa ordenado
+
+ESTRUTURA CONDICIONAL
+<?php 
+if (condição) {
+    comando1;
+}
+else
+    comando 2;
+}
+?>
+
+<?php 
+if (condição) {
+    comando1;
+}
+else if (condição)
+    comando 2;
+}
+else {
+    comando3;
+}
+?>
+
+<?php 
+switch (expressão) {
+    case valor1:
+        comando1;
+        break;
+    case valor2:
+        comando2;
+        break;
+        default:
+            comando4;
+            break;
+    }
+?>

@@ -1,0 +1,88 @@
+ESTRUTURASS E COMANDOS LINUX
+
+Principais distribuições LINUX
+Baseadas em Debian
+Ubuntu
+Mint
+Knoppix
+
+Baseadas em Red Hat
+Fedora
+CentOS
+Red Hat Enterprise Linux
+
+ESTRUTURA DE DIRETÓRIO
+/ Diretório raiz, onde contém todos os arquivos do sistema;
+/bin Diretório onde estão os arquivos executáveis e comandos essenciais do sistema;
+/boot Diretório onde estão os arquivos necessários para iniciar o sistema (Kernel linux está aqui dentro)
+/dev Diretório onde estão os arquivos de dispositivos do sistema, como discos, cd roms, etc.
+/etc Diretório onde estão localizados os arquivos de configuração do sistema;
+/home Ficam os arquivos pessoais, como documentos, fotografias, etc. 
+/lib Diretório onde estão localizadas as bibliotecas essenciais ao sistema;
+/mnt Diretório vazio. Este diretório geralmente é utilizado para montagem de dispositivos;
+/proc Diretório que possui informações do kernel e de processos linux
+/opt Diretório onde estão localizados os aplcativos instalados que não venham com linux;
+/root Diretório do superusuário (root);
+/sbin arquivos do sistema e acessados pelo superusuário;
+/tmp Diretório de arquivos temporários, como arquivos de sessão ou cache;
+/usr Reúne executáveis, blibliotecas e até documentação de softwares usados pelos usuários (basicamente, diretório alternativo ao /bin ou /sbin);
+/var Diretório onde são guardadas informações variáveis ao sistema, como arquivos de logs. 
+
+COMANDO SSH
+Esse comando permite que o susário se conecte a servidores remotamente. 
+ssh usuario@host  acessa o Ftp (tipo filezzila)
+
+COMANDO PWS
+Utilizado para o usuário identificar onde, fisicamente, ele está na estrutura de diretórios. 
+
+COMANDO CD 
+Utilizado ppara navegar entre os diretórios
+cd diretorio
+
+COMANDO LS
+Utilizado para listar o conteúdo de um diretório/pasta. Normalmente utiliza-se parâmetros adicionais para visualizar mais informações. 
+
+COMANDO CP
+Utilizado para fazer cópias de arquivos 
+cd arquivo-original novo-Normalmente
+
+COMANDO MV
+Utilizado para mover o conteúdo do diretorio ou renomear arquivos e diretórios.
+mover: mv nome-arquivo destino
+renomear: mv nome-atual novo-nome
+
+COMANDO MKDIR
+Utilizado para criar pasta/diretóriomkdir nome-diretório
+
+COMANDO RM
+Utilizado para remover arquivos e diretórios
+rm nome-arquivo
+rm -Rf nome-diretorio
+
+COMANDO DU
+Utilizado para connsultar o espaço alocado e determinado diretório.
+du -sh diretório
+
+COMANDO ZIP
+Utilizado para comprimir conteúdo em um único arquivozip -r nome-arquivo.zip arquivos-e-diretórios
+
+COMANDO UNZIP
+Utilizado para descompactar arquivos zip
+unzip arquivo.zip
+
+COMANDO SCP
+Utilizado para fazer cópia de arquivos de um host para outro. 
+scp arquivo usuario@host:caminho-físico
+
+COMANDO WGET
+Utilizado para fazer o download de aruivos. É necessário utilizar a URL completa do arquivo. 
+wget URL
+
+
+
+
+
+
+
+
+
