@@ -1,0 +1,75 @@
+REDES
+O QUE É UMA REDE
+Rede de computadores ou rede de dados é um conjunto de dois ou mais dispositivos eletrõnicos de computação
+interligados por um sistema de comunicação digital, guiados por um conjunto de regras (protocolos de rede) para compartilhar entre si informação, serviços e recursos físicos e lógicos. Estes podem ser do tipo: dados, impressoras, mensagens, etc. As conexões podem ser estabelecidas usando cabos ou sem fio. 
+
+TIPOS DE REDES
+PAN - Personal area network - bluetooth
+LAN - Local area network - rede local empresa
+WAN - Wide area network - internet
+
+PROTOCOLOS DE comunicação
+HTTP (Porta 80 ou 8080)
+HTTPS (Porta 443)
+POP (Porta 110)
+IMAP (Porta 143)
+SMTP (Porta 587)
+FTP (Porta 21)
+
+IP
+Internet protocol é um número dado a acada dispositivo conectado a uma rede. 
+
+IPV4
+Endereços com 32 bits
+Formado por 4 octetos
+Numeros decimais
+192.168.0.1 = 11000000.10101000.00000000.00000001
+
+IPV6
+Endereço com 128 bits
+Formado por octetos
+Hexadecimais
+2804:7f4:c19d:8fc6:ae80:c029:966e:cb5d
+
+IP Local: ip interno de uma rede
+IP Externo: ip fornecido pela provedora da internet.
+
+DHCP
+Dynamic Host Configuration Protocol (Protocolo de configuração dinâmica de endereços de rede)
+Confuguração de endereço de ip, mascara e gateway de forma automatica;
+
+DNS
+Domain name system, ou sistema de nomes de domínios)
+TRaduz nome de dominio para número de ip
+google.com.br = 142.251.132.3
+
+DNS RECURSIVO
+É responsável por procurar os endereços de ip do servidor que você solicitou acesso.
+
+DNS AUTORITATIVO 
+São servidores que tem autoridade para fornecer informações de um dominio. 
+
+REGISTRO DE DOMÍNIO
+É o nome do seu site na internet.
+
+TIPOS DE ENTRADAS DNS
+A - Os registros são os mais comuns e vinculam os domínios e subdomínios dos sites a protocolos de IP para faciliar o acesso a sites. 
+AAAA - Esse tipo de DNS executa as mesmas funções do tipo A, porém utilizando endereço ipV6.
+CNAME- É uma chamada DNS que mapeia um domínio ou subdomínio para outro nome. 
+MX - Entrada específica para o serviço de e-mails. Garante que uma mensagem seja entregue quando enviamos e-mail a alguém. Também é possível ciar uma lista de prioridades para que haja alternativas de entrega. 
+TXT - Utilizada para autorizar determinados hosts a enviar e-mail utilizando o nome do domínio. 
+
+COMANDOS DE REDE
+HOST é um comando utilizado para consultar o reverso de um IP. 
+PING é um comando usado para medir o tempo de resposta da conexão (latência) entre o seu computador e outros dispositivos na rede local ou internet. 
+TRACERT /TRACEROUT é um comando usado para traçar a rota entre seu computador e outros dispositivos na rede. 
+TELNET é utilizado para testar a conectividade em um determinado servidor/porta. 
+NSLOOKUP é utilizado para obter informações de um servifor DNS. As informações obtidas com o comando nslookup, normalmente são utilizadas para a resolução de problemas relacionaos ao DNS. 
+MTR é uma espécie de mescla entre os comandos traceroute e ping. Com ela é possível analisar se há perdas de pacotes. 
+
+
+
+
+
+
+

@@ -78,6 +78,20 @@ COMANDO WGET
 Utilizado para fazer o download de aruivos. É necessário utilizar a URL completa do arquivo. 
 wget URL
 
+COMANDO PWD
+Mostra em qual diretório estou
+
+COMANDO TOUCH
+Cria arquivo de texto
+touch index.html
+
+CD..
+Volta um diretório
+
+/~
+Volta para a raíz
+
+
 
 
 
