@@ -1,0 +1,20 @@
+BANCO DE DADOS SQL (structured query language)
+
+Um banco de dados é uma coleção de dados. 
+Para gerencia-los, usa-se o SGBD (sistema de gestão de bd)
+
+Criando tabela
+CREATE TABLE nome_tabela(
+    nome_coluna tipo_dado()
+)
+
+selecionando dados
+SELECT * FROM Clientes
+WHERE Nome Like 'fernando%';
+
+Deletando dados
+DELETE FROM Clientes
+WHERE Nome like 'fernando%';
+
+
+
