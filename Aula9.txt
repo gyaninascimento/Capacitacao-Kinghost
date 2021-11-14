@@ -1,0 +1,39 @@
+SEGURANÇA DA INFORMAÇÃO
+
+Através da segurança da informação se garante:
+Confidencialidade
+Integridade
+Disponibilidade dos dados
+
+Detectando, prevenindo e respondendo as ameaçãs digitais através de pessoas, processos e tecnologia. 
+
+Confidencialidade
+Integridade
+Disponibilidade
+
+Prevenção
+Detecção
+Resposta
+
+tecnologia
+Processos
+pessoas
+
+ÁREAS
+redteam
+Realiza testes na empresa
+Alto nível de conhecimento sobre ameaças
+Identificação e eleiminação de volnerabilidades
+
+blueteam
+Papel oposto ao do redteam
+Fazer estratégias para aumentar desefas e mecanismos de proteção
+Análise de logs
+Análises de riscos
+Levantamento de cenários
+
+Legal
+legal and compliance
+
+
+
